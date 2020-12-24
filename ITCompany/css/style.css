@@ -450,9 +450,16 @@ textarea {
     transition: .2s linear;
     padding-bottom: 20px;
     z-index: 999;
-    background-color: #000; 
+
  
 }
+
+.wrapper{
+    max-width: 760px;
+    margin: 0 150px 0 auto;
+    padding: 0 15px;
+}
+
 .header_active{
     background: #0E1D28;
 }
@@ -501,9 +508,7 @@ textarea {
     position: relative;
 }
 
-.header__nav{
-    padding-left: 552px;
-}
+
 
 .burger__line{
     display: block;
@@ -530,3 +535,59 @@ textarea {
 }
 
 /* header end */
+
+/* mainsection start */
+
+.mainsection{
+    min-height: 100vh;
+    background: url(../img/mainphoto.png) no-repeat center;
+    background-size: cover;
+    padding-top: 263px;
+    padding-bottom: 223px;
+}
+
+.mainsection__wrapper{
+    max-width: 829px;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-family: Montserrat;
+    color: white;
+    text-align: center;
+}
+
+.mainsection__pretext{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.mainsection__headertext{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+
+.mainsection__button__link{
+    width: 200px;
+    height: 45px;
+    padding: 13px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px; 
+    background-color: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    text-decoration: none;
+    color: white; 
+}
+
+.mainsection__button__link:active,.mainsection__button__link:focus,.mainsection__button__link:hover{
+    background-color: rgb(43, 114, 255);
+}
+
+.mainsection__button__link:active, .mainsection__button__link:hover, .mainsection__button__link:focus{
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+}
+/* mainsection end */
