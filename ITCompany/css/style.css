@@ -460,6 +460,10 @@ textarea {
     padding: 0 15px;
 }
 
+.graybg{
+    background: #F6F6F8;
+}
+
 .header_active{
     background: #0E1D28;
 }
@@ -604,12 +608,32 @@ textarea {
     min-height: 700px;
 }
 
-.services__headertext{
+.headertext_h2{
     text-align: center;
     font-weight: bold;
     font-size: 36px;
     line-height: 53px;
     padding-top: 110px;
+}
+
+.text_header_h3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.text_sm{
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+}
+
+.text_md{
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    padding-top: 50px;
 }
 
 .services__text{
@@ -644,21 +668,31 @@ textarea {
     padding-top: 50%;
 }
 
-.services_car_text_header{
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    color: #000000;
-}
-
-.services_card_text_sm{
-    font-size: 14px;
-    line-height: 22px;
-    color: #999999;
-}
 
 .services_button{
     padding-top: 50px;
 
+}
+
+.standarts_link{
+    padding-top: 30px;
+}
+
+.standarts{
+    padding-bottom: 70px;
+}
+
+.standarts_img{
+    padding-top: 100px;
+}
+
+.project_num{
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+}
+
+.project_pic{
+    padding-top: 6%;
 }
 /* conten end */
