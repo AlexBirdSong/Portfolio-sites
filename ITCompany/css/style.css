@@ -464,6 +464,10 @@ textarea {
     background: #F6F6F8;
 }
 
+.fioletbg{
+    background: url(../img/fiolet.png) repeat-x 100% 0;
+}
+
 .header_active{
     background: #0E1D28;
 }
@@ -616,6 +620,16 @@ textarea {
     padding-top: 110px;
 }
 
+.headertext_h2_white{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    padding-top: 110px;
+    color: white;
+}
+
+
+
 .text_header_h3{
     font-weight: 600;
     font-size: 18px;
@@ -695,4 +709,31 @@ textarea {
 .project_pic{
     padding-top: 6%;
 }
+
+.works{
+    padding-bottom: 85px;
+}
+
+.work_cards{
+    padding-top: 70px;
+}
+
+.work_card_h4{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.work_card_num{
+    color: #4985FF;
+}
+
+.work_link{
+    padding-top: 30px;
+    padding-bottom: 85px;
+}
+
+
 /* conten end */
