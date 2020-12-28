@@ -700,6 +700,10 @@ textarea {
     padding-top: 100px;
 }
 
+.project{
+    padding-bottom: 130px;
+}
+
 .project_num{
     font-weight: normal;
     font-size: 36px;
@@ -735,5 +739,14 @@ textarea {
     padding-bottom: 85px;
 }
 
+.project_text{
+    padding-top: 50px;
+    max-width: 730px;
+    margin: 0 auto;
+}
+
+.project_photo{
+    padding-top: 70px;
+}
 
 /* conten end */
