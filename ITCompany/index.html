@@ -8,6 +8,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="./libs/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <script type="text/javascript" src="libs/jQuery.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
 </head>
 <body>
 
@@ -48,7 +52,7 @@
         </header>
 
 
-        <div class="mainsection">
+        <div class="mainsection" >
           <div class="mainsection__wrapper">
               <p class="mainsection__pretext">Передовая IT студия</p>
               <h1 class="mainsection__headertext">Мы создаем легкие решения сложных задач и проблем</h1>
@@ -62,9 +66,9 @@
           </div>
         </div>
 
-       <div class="services">
+       <div class="services" >
            <div class="content__wrapper">
-                <div class="headertext_h2">
+                <div class="headertext_h2" id="services">
                     <h2>Мы создаем мобильные приложения
                         для крупных корпораций</h2>
                 </div>
@@ -147,7 +151,7 @@
                     </div>   
                 </div>
                 <div class="col-sm-6">
-                    <div class="standarts_img">
+                    <div class="standarts_img" >
                         <img src="img/standarts.png" alt="standarts">
                     </div>
                 </div>
@@ -157,7 +161,7 @@
                 <div class="col-sm-2"> 
                     <div class="row">
                             <div class="col-1"></div>
-                            <div class="col-2 project_pic">
+                            <div class="col-2 project_pic" >
                                     <img src="img/svg/web-programming.svg" alt="web-programming">
                             </div>
                             <div class="col-1"></div>
@@ -322,6 +326,39 @@
           </div>
            </div>
        </div>
-    <script src="./js/main.js"></script>
+       
+       <div class="video">
+            <div class="content__wrapper">
+                <div class="videotext_h2_white">
+                    <h2>Видео о нашей работе</h2>
+                </div>
+                <div class="video_text">
+                    <p>Просто посмотрите, как мы работаем</p>
+                </div>
+                <div class="video_section text-center">
+                        <iframe width="970" height="430" src="https://www.youtube.com/embed/g5rOvI3JvpE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <hr/>
+
+                <div class="mailer">
+                    <div class="mailer_h3">
+                        <h3>Подпишитесь на нашу рассылку</h3>
+                    </div>
+                    <div class="mailer_text">
+                        <p>Полезные статьи, акции, новости - получите все это сейчас!</p>
+                    </div>
+                </div>
+                <form action="#" method="get">
+                        <input name="useremail" placeholder="Ваш e-mail" type="email">
+                        <button type="submit">Подписаться</button>
+                      </form>
+                      <div class="mailer_text">
+                            <p>Мы не шлем спам, и передаем никому ваши данные.</p>
+                        </div>
+            </div>
+       </div>
+    <script src="js/main.js"></script>
+
 </body>
 </html>
